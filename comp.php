@@ -18,7 +18,7 @@
         }
         $Comp = mysqli_fetch_assoc($resultEvent);
 
-        $img = '/images/crests/new/'.strtolower(str_replace(" ","-",$Comp['comp_name'])).'.png';
+        $img = 'images/crests/new/'.strtolower(str_replace(" ","-",$Comp['comp_name'])).'.png';
 
       ?>
 
@@ -60,7 +60,7 @@
 <?php
 
       if (!file_exists($_SERVER['DOCUMENT_ROOT'].$img)){
-        $img = "/images/dude-square.png";
+        $img = "images/dude-square.png";
       }
 
       echo "<img src = \"$img\">";?> </td>
@@ -81,9 +81,9 @@
        }
       }
 
-$img = '/images/comp-venue/'.strtolower(str_replace(" ","-",$Comp['comp_name'])).'.png';
+$img = 'images/comp-venue/'.strtolower(str_replace(" ","-",$Comp['comp_name'])).'.png';
       if (!file_exists($_SERVER['DOCUMENT_ROOT'].$img)){
-        $img = '/images/comp-venue/'.strtolower(str_replace(" ","-",$Comp['comp_name'])).'.jpg';
+        $img = 'images/comp-venue/'.strtolower(str_replace(" ","-",$Comp['comp_name'])).'.jpg';
         if (!file_exists($_SERVER['DOCUMENT_ROOT'].$img)){
         $img = "images/slides/1.png";
       }

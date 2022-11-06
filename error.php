@@ -21,7 +21,7 @@
       <li><a href="/teamwear">Teamwear</a></li>
       <li><a href="/resources">Resources</a></li>
       <li><a href="/affiliate">Affiliate</a></li>
-      <li><a href="login">SUTL<span id="Portal">Portal</span></a></li>
+      <li><a href="https://tramponline.org/entries/login.php">SUTL<span id="Portal">Portal</span></a></li>
 
     </ul>
   </nav>
